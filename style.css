@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Ruwudu:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Ruwudu:wght@400;500;600;700&display=swap');
+
+.navbar p{
+      font-family: Ruwudu;
+      margin-left: 30px;
+      background: -webkit-linear-gradient(#f98d43,#768d35);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bolder;
+}
+nav{
+text-align: right;
+}
+.nav-item a{
+color: black;
+font-family: El Messiri;
+}
+.nav-item a:hover{
+      color: #f98d43;
+}
+.nav-link {
+      color: #586b21;
+      font-weight: bolder;
+      font-size: larger;
+}
+@media screen and (max-width: 576px) {
+      .nav-link{
+            font-size: 65%;
+      }
+      .footer-title {
+        text-align: center;
+      }
+      
+}
+.nav-link:hover{
+      color: #f98d43;
+}
+.container p{
+      margin-top: 70px;
+      font-family: El Messiri;
+      font-size: large;
+      line-height: 2.0em;
+}
+.container h1{
+      font-family:El Messiri ;
+      margin-top: 70px;
+      background: -webkit-linear-gradient(#f98d43,#768d35);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bolder;
+}
+h4{
+     margin-left: 50px;
+      background: -webkit-linear-gradient(#f98d43,#768d35);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bolder;
+      font-family:El Messiri ;
+}
+
+
+.card-row .row{
+     
+      margin-top: 40px;
+}
+.card-row .card{
+      border: none;
+}
+.card-title{
+      font-family: El Messiri;
+      text-align: center;
+}
+ .btn-primary{
+     display: flex;
+     justify-content: center;
+     background: repeating-linear-gradient(#f98d43,#768d35 );
+     border: #768d35;
+     font-family: El Messiri;
+}
+.footer{
+   
+     width: 100%;
+     
+}
+.footer img{
+     margin-right:10px ;
+}
+.footer span{
+      font-weight: bold;
+      background: -webkit-linear-gradient(#cf7030,#586b21);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+}
+.footer hr{
+      border-width: 10px;
+     color: #c0540d;
+}
+.footer-title p{
+text-align: center;
+}
+.footer .info{
+      flex: auto;
+}
+
+.head h1{
+      text-align: center;
+      background: -webkit-linear-gradient(#cf7030,#586b21);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family:  El Messiri;
+      margin-top: 30px;
+}
